@@ -19,8 +19,8 @@ export default function Hero({ sectionTitle, title }: heroTypes) {
   }, []);
   return (
     <div className="relative">
-      <div className="flex text-white items-end gap-5 absolute top-0 z-40 bottom-10 lg:bottom-24 left-5 sm:left-10 xl:left-[260px]">
-        <div className="">
+      <div className="flex text-white items-end gap-5 absolute top-0 z-40 bottom-10 lg:bottom-24 left-0  xl:left-[260px]">
+        <div className="mx-5 lg:mx-0">
           <h2 className="text-lg sm:text-xl md:text-2xl">{sectionTitle}</h2>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl">
             {title}

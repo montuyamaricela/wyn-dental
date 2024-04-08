@@ -16,12 +16,14 @@ export default function AboutSection({
     <Container>
       <div className="w-32 h-0.5 mx-auto bg-orange mb-5" />
       <div className="text-center">
-        <h2 className="text-base uppercase text-orange">{sectionTitle}</h2>
-        <p className="text-xl text-blue w-2/4 mx-auto mt-5">
+        <h2 className="text-xl uppercase tracking-widest text-orange">
+          {sectionTitle}
+        </h2>
+        <p className="text-base md:text-2xl text-blue md:w-2/4 mx-auto mt-5">
           {shortDescription}
         </p>
         {description && (
-          <p className="text-base text-blue w-2/4 mx-auto mt-5">
+          <p className="text-sm md:text-xl text-blue md:w-2/4 mx-auto mt-5">
             {description}
           </p>
         )}
