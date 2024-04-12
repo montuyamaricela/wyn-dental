@@ -1,4 +1,4 @@
-import { Container } from "../../common/Container";
+import { Container } from "./Container";
 import Image from "next/image";
 import TestimonialImage from "@/public/images/testimonial-image.png";
 import quote from "@/public/images/quote.svg";

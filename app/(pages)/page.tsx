@@ -4,7 +4,7 @@ import About from "../components/pages/home/About";
 import TwoColumnText from "../components/common/TwoColumnText";
 import ImageBackground from "../components/pages/home/Image";
 import TwoColumnImage from "../components/common/TwoColumnImage";
-import Testimonial from "../components/pages/home/Testimonial";
+import Testimonial from "../components/common/Testimonial";
 import backgroundImage from "@/public/images/learn-more.png";
 export default function Home() {
   return (

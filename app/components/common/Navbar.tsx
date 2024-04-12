@@ -10,10 +10,10 @@ import { useEffect, useState } from "react";
 const navLinks = [
   { id: 1, title: "Home", link: "/" },
   { id: 2, title: "About", link: "/about" },
-  { id: 3, title: "Dental Services", link: "/" },
-  { id: 4, title: "Why Wynn?", link: "/" },
-  { id: 5, title: "First Visit", link: "/" },
-  { id: 6, title: "Contact", link: "/contactt" },
+  { id: 3, title: "Dental Services", link: "/services" },
+  { id: 4, title: "Why Wynn?", link: "/about" },
+  { id: 5, title: "First Visit", link: "/about" },
+  { id: 6, title: "Contact", link: "/contact" },
 ];
 
 export default function Navbar() {
@@ -75,7 +75,7 @@ export default function Navbar() {
         </Link>
         <div className="hidden sm:block">
           <Link
-            href="/"
+            href="/contact"
             className="text-xs bg-transparent border-white border px-5 py-2"
           >
             BOOK NOW
