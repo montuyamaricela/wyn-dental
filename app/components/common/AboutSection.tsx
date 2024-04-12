@@ -23,7 +23,7 @@ export default function AboutSection({
           {shortDescription}
         </p>
         {description && (
-          <p className="text-sm md:text-xl text-blue md:w-2/4 mx-auto mt-5">
+          <p className="text-sm md:text-base text-blue md:w-2/4 mx-auto mt-5">
             {description}
           </p>
         )}
